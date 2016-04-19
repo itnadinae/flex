@@ -4,7 +4,7 @@
 一、Flex布局是什么
 	1.Flex是Flexible 
 
-		Box的缩写，意为“弹性布局”，可以为布局带来很                     大的灵活性。可以很快的实现css的简单布局。
+	  Box的缩写，意为“弹性布局”，可以为布局带来很大的灵活性。可以很快的实现css的简单布局。
 	2.在使用Flex的时候需要指定一个容器为Flex布局。
 	  行内元素和块元素都可以指定为Flex容器。
 	  块元素为：display:flex;
@@ -27,7 +27,7 @@
 		  wrap换行，从上方开始排列
 		   wrap-reverse换行，从下方开始排列
 
-		3.flex-flow：可以同时设置flex-direction和flex-wrap，其中默认				  值是row   nowrap
+		3.flex-flow：可以同时设置flex-direction和flex-wrap，其中默认值是row   nowrap
 
 		 4.justify-content：规定了一组元素的对齐方式
 		属性值：flex-start（默认）左对齐
@@ -48,4 +48,4 @@
 		  flex-end在x，y的末端对齐
 		  center在y轴的中点对齐
 		  space-between在y轴的上下端对齐其余的居中
-		 space-around在每根轴线两侧的间隔都相						等。所以，轴线之间的间隔比轴线与边框的间隔大一						倍。
+		 space-around在每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一						倍。
