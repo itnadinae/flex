@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{ margin:0; padding:0;}
+		.box{ width:800px; height:500px; border:1px solid #000; display:flex; align-items:stretch;}
+		.box div{ width:100px; border:1px solid #000; background:blue; font-size:40px; text-align:center; line-height:100px; color:#fff;}
+		/*子元素不设置高，在父元素上设置stretch子元素的高度会充满父元素。或者子元素设置高，在父元素设置高度为auto*/
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+		<div>6</div>
+	</div>
+</body>
+</html>

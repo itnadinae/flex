@@ -31,7 +31,7 @@
 		3.flex-flow：可以同时设置flex-direction和flex-wrap，其中默认值是row
 				     nowrap
 
-		 4.justify-content：规定了一组元素的对齐方式
+		4.justify-content：规定了一组元素的对齐方式
 			 属性值：flex-start（默认）左对齐
 					  flex-end右对齐
 					  center居中对齐
@@ -45,9 +45,40 @@
 					  baseline以容器内第一行文字的基线对齐 
 					  stretch（默认值）如果项目未设置高度或设为auto将占满容器高度
 
-		 6.align-center设置多行元素的对齐方式，对单行元素不起作用
+		6.align-center设置多行元素的对齐方式，对单行元素不起作用
 			 属性值：flex-start在x，y的起点对齐
 					  flex-end在x，y的末端对齐
 					  center在y轴的中点对齐
 					  space-between在y轴的上下端对齐其余的居中
 					 space-around在每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。
+					 
+三、Flex设置在项目上的属性
+		
+	属性：order、flex-grow、flex-shrink、flex-basis、flex、align-self 				 
+					 
+		1.order定义元素的排列顺序。定义元素的数值越小，排列越靠前，默认为0。
+
+		2.flex-grow定义元素的大小默认的为0，
+		
+		3.
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
